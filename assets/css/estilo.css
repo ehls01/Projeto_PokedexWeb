@@ -1,7 +1,11 @@
+/* IMPORTE DAS FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,500&display=swap');
 :root{
     --normal: 'Montserrat', sans-serif;
 }
+
+/* TAGS ESTRUTURAIS BASE CSS */
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,10 +13,10 @@
     font-family: var(--normal);
 }
 
-/* CORPO */
+/* CABEÇALHO */
 
 header{
-    background-color: #535353;
+    background-color: #8ad1a5;
     text-align: center;
     font-size: 40px;
     padding: 5px;
@@ -22,21 +26,85 @@ header h1, footer h1{
     font-weight: 500 ;
     font-style: italic;
 }
+
+/* CORPO */
+
 main{
     padding: 430px 0;
-    margin: 5px;
+    background-color: beige;
 }
 main h1{
     font-weight: 300;
 }
+
+/* DIVISÕES */
+
 .unidade{
-    display: flex;
+    padding: 10px 10px;
+    border: 2px solid;
+    border-radius: 15px;
     margin: 0 300px ;
     width: 300px;
+    flex-direction: column;
+    background-color: antiquewhite;
+    transition: linear transform 0.15s;
 }
-.unidade img{
+.unidade:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 10px;
+}
+.titulo img{
+    width: 60px ;
+    padding: 5px;
+}
+.titulo h1{
+    font-style: oblique;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokemon img{   
+    width: 100px;
+}
+.tipos{
+    width: 76%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px;
+}
+.tipos h1{
+    border: solid #000000 2px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* RODAPÉ */
+
 footer{
-    background-color: #535353;
+    background-color: #8ad1a5;
     text-align: center;
+    padding: 15px;
+}
+
+/* CORES DOS TIPOS  */
+
+#grama{
+    background-color: #25c025;
+}
+#veneno{
+    background-color: #c729c7;
 }

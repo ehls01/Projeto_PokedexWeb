@@ -8,6 +8,9 @@
     box-sizing: border-box;
     font-family: var(--normal);
 }
+
+/* CORPO */
+
 header{
     background-color: #535353;
     text-align: center;
@@ -15,13 +18,23 @@ header{
     padding: 5px;
     font-weight: 300;
 }
-header footer h1{
+header h1, footer h1{
     font-weight: 500 ;
     font-style: italic;
 }
 main{
-    padding: 430px;
+    padding: 430px 0;
     margin: 5px;
+}
+main h1{
+    font-weight: 300;
+}
+.unidade{
+    display: flex;
+    margin: 0 300px ;
+    width: 300px;
+}
+.unidade img{
 }
 footer{
     background-color: #535353;

@@ -16,7 +16,7 @@
 /* CABEÇALHO */
 
 header{
-    background-color: #8ad1a5;
+    background-color: #7c7c7c;
     text-align: center;
     font-size: 40px;
     padding: 5px;
@@ -29,9 +29,15 @@ header h1, footer h1{
 
 /* CORPO */
 
+.quadro{
+    /* display: flex;
+    box-sizing: border-box;
+    justify-content: space-between; */
+    
+}
 main{
-    padding: 430px 0;
-    background-color: beige;
+    padding: 80px 0;
+    background-color: rgb(220, 224, 170);
 }
 main h1{
     font-weight: 300;
@@ -41,7 +47,7 @@ main h1{
 
 .unidade{
     padding: 10px 10px;
-    border: 2px solid;
+    border: 0px solid;
     border-radius: 15px;
     margin: 0 300px ;
     width: 300px;
@@ -57,7 +63,7 @@ main h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 15px;
     margin: 10px;
 }
@@ -68,7 +74,7 @@ main h1{
 .titulo h1{
     font-style: oblique;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .pokemon{
     display: flex;
@@ -87,7 +93,7 @@ main h1{
     margin: 12px;
 }
 .tipos h1{
-    border: solid #000000 2px;
+    border: solid #000000 0px;
     border-radius: 15px;
     padding: 5px;
 }
@@ -107,4 +113,10 @@ footer{
 }
 #veneno{
     background-color: #c729c7;
+}
+#agua{
+    background-color: #00a2ff;
+}
+#fogo{
+    background-color: #ff9900;
 }

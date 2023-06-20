@@ -16,37 +16,18 @@
 /* CABEÇALHO */
 
 header{
-    background-color: #8ad1a5;
-    text-align: center;
-    font-size: 40px;
-    padding: 5px;
-    font-weight: 300;
+    background-color: #f0d1a8;
+    padding: 20px;
 }
-header h1, footer h1{
-    font-weight: 500 ;
-    font-style: italic;
+header img{
+    width: 60px;
 }
 
 /* CORPO */
 
-.regiao{
-    text-align: center;
-    padding: 40px;
-    width: 370px;
-}
-.regiao h1{
-    background-color: antiquewhite;
-    border-radius: 15px;
-    border: #000000 2px;
-}
-.quadro{
-    display: flex;
-    justify-content: space-around;
-}
 main{
-    padding: 80px 0;
-    background-color: #dce0aa;
-    background-image:
+    background-color: #f0d1a8;
+    padding: 0 60px 396px 60px;
 }
 main h1{
     font-weight: 300;
@@ -54,13 +35,37 @@ main h1{
 
 /* DIVISÕES */
 
+.regiao{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.regiao h1{
+    /* background-color: antiquewhite; */
+    /* border: #535353 2px solid; */
+    border-radius: 900px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    
+}   
+.quadro{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 500px;
+}
 .unidade{
-    border: 1px solid;
+    border: #535353 2px solid;
     border-radius: 15px;
     margin: 0 10px;
     flex-direction: column;
     background-color: antiquewhite;
     transition: linear transform 0.15s;
+}
+.unidade p{
+    overflow-y: scroll;
+    height: 88px;
+    padding: 10px;
 }
 .unidade:hover{
     cursor: pointer;
@@ -71,7 +76,7 @@ main h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    border: #535353 2px solid;
     border-radius: 15px;
     margin: 10px;
 }
@@ -104,30 +109,35 @@ main h1{
     margin: 12px;
 }
 .tipos h1{
-    border: solid #000000 1px;
+    border: solid #535353 2px;
     border-radius: 15px;
     padding: 5px;
 }
 
 /* RODAPÉ */
 
+footer h1{
+    font-weight: 500 ;
+    font-style: italic;
+}
 footer{
-    background-color: #8ad1a5;
+    background-color: #3f413f;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    color: aliceblue;
 }
 
 /* CORES DOS TIPOS  */
 
 #grama{
-    background-color: #34d634;
+    background-color: #27e927;
 }
 #veneno{
-    background-color: #c729c7;
+    background-color: #f531f5;
 }
 #agua{
-    background-color: #00a2ff;
+    background-color: #24adfc;
 }
 #fogo{
-    background-color: #ff9900;
+    background-color: #fd9c1c;
 }

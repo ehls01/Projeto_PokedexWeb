@@ -18,22 +18,48 @@
 header{
     background-color: #f0d1a8;
     padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-around;
 }
 header img{
     width: 60px;
+    transition: linear transform 0.15s;
+}
+    
+header img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+header div{
+    padding: 0 20px 0 20px;
+}
+
+/* DIVISÕES DO HEADER */
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.botaoInicio{
+    align-items: left;
+}
+.botaoTema{
+    align-items: right;
 }
 
 /* CORPO */
 
 main{
     background-color: #f0d1a8;
-    padding: 0 60px 396px 60px;
+    padding: 0 60px 50px 60px;
 }
 main h1{
     font-weight: 300;
 }
 
-/* DIVISÕES */
+
+/* DIVISÕES DO CORPO*/
 
 .regiao{
     text-align: center;
@@ -43,7 +69,7 @@ main h1{
 .regiao h1{
     /* background-color: antiquewhite; */
     /* border: #535353 2px solid; */
-    border-radius: 900px;
+    /* border-radius: 900px; */
     font-size: 30px;
     font-weight: bold;
     padding: 10px;

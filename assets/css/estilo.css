@@ -16,7 +16,7 @@
 /* CABEÇALHO */
 
 header{
-    background-color: #7c7c7c;
+    background-color: #8ad1a5;
     text-align: center;
     font-size: 40px;
     padding: 5px;
@@ -29,15 +29,24 @@ header h1, footer h1{
 
 /* CORPO */
 
+.regiao{
+    text-align: center;
+    padding: 40px;
+    width: 370px;
+}
+.regiao h1{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: #000000 2px;
+}
 .quadro{
-    /* display: flex;
-    box-sizing: border-box;
-    justify-content: space-between; */
-    
+    display: flex;
+    justify-content: space-around;
 }
 main{
     padding: 80px 0;
-    background-color: rgb(220, 224, 170);
+    background-color: #dce0aa;
+    background-image:
 }
 main h1{
     font-weight: 300;
@@ -46,11 +55,9 @@ main h1{
 /* DIVISÕES */
 
 .unidade{
-    padding: 10px 10px;
-    border: 0px solid;
+    border: 1px solid;
     border-radius: 15px;
-    margin: 0 300px ;
-    width: 300px;
+    margin: 0 10px;
     flex-direction: column;
     background-color: antiquewhite;
     transition: linear transform 0.15s;
@@ -60,6 +67,7 @@ main h1{
     transform: scale(1.05);
 }
 .titulo{
+    width: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +93,9 @@ main h1{
 .pokemon img{   
     width: 100px;
 }
+.pokemon p{
+    width: 260px;
+}
 .tipos{
     width: 76%;
     display: flex;
@@ -93,7 +104,7 @@ main h1{
     margin: 12px;
 }
 .tipos h1{
-    border: solid #000000 0px;
+    border: solid #000000 1px;
     border-radius: 15px;
     padding: 5px;
 }
@@ -109,7 +120,7 @@ footer{
 /* CORES DOS TIPOS  */
 
 #grama{
-    background-color: #25c025;
+    background-color: #34d634;
 }
 #veneno{
     background-color: #c729c7;

@@ -52,7 +52,7 @@ header div{
 
 main{
     background-color: #f0d1a8;
-    padding: 0 60px 50px 60px;
+    padding: 0 60px 452px 60px;
 }
 main h1{
     font-weight: 300;
@@ -78,12 +78,12 @@ main h1{
 .quadro{
     display: flex;
     justify-content: space-around;
-    padding: 0 500px;
+    flex-wrap: wrap;
 }
 .unidade{
     border: #535353 2px solid;
     border-radius: 15px;
-    margin: 0 10px;
+    margin: 10px 10px;
     flex-direction: column;
     background-color: antiquewhite;
     transition: linear transform 0.15s;

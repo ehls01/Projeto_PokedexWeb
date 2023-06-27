@@ -158,13 +158,13 @@ footer{
 /* CORES DOS TIPOS  */
 
 #normal{
-    background-color: #999999;
+    background-color: #adadad;
 }
 #lutador{
     background-color: #e93939;
 }
 #grama{
-    background-color: #27e927;
+    background-color: #33cc33;
 }
 #veneno{
     background-color: #f531f5;
@@ -185,7 +185,7 @@ footer{
     background-color: #bbba88;
 }
 #inseto{
-    background-color: #a0a524;
+    background-color: #a1c031;
 }
 #fantasma{
     background-color: #68446e;
@@ -233,4 +233,14 @@ footer{
 /* Cor do traço na barra de rolagem */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+/* MODO ESCURO */
+
+body.modoEscuro{
+    background-color: #212121;
+    color: #f5f5f5;
+}
+.modo-escuro .unidade{
+    background-color: #a8a8a8;
 }

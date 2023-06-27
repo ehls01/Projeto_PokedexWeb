@@ -17,10 +17,10 @@
 
 header{
     background-color: #f0d1a8;
-    padding: 20px;
     box-sizing: border-box;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+    padding: 20px;
+}  
 header img{
     width: 60px;
     transition: linear transform 0.15s;
@@ -29,6 +29,10 @@ header img{
 header img:hover{
     cursor: pointer;
     transform: scale(1.05);
+}
+#mudarTema{
+    background: none;
+    border: none;
 }
 header div{
     padding: 0 20px 0 20px;
@@ -67,9 +71,6 @@ main h1{
     width: 100%;
 }
 .regiao h1{
-    /* background-color: antiquewhite; */
-    /* border: #535353 2px solid; */
-    /* border-radius: 900px; */
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
@@ -77,16 +78,18 @@ main h1{
 }   
 .quadro{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .unidade{
     border: #535353 2px solid;
     border-radius: 15px;
     margin: 10px 10px;
+    display: flex;
     flex-direction: column;
     background-color: antiquewhite;
     transition: linear transform 0.15s;
+    width: 250px;
 }
 .unidade p{
     overflow-y: scroll;
@@ -98,7 +101,6 @@ main h1{
     transform: scale(1.05);
 }
 .titulo{
-    width: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +115,7 @@ main h1{
 .titulo h1{
     font-style: oblique;
     padding: 5px 10px;
-    font-size: 17px;
+    font-size: 22px;
 }
 .pokemon{
     display: flex;
@@ -122,13 +124,12 @@ main h1{
     align-items: center;
 }
 .pokemon img{   
-    width: 100px;
+    height: 100px;
 }
 .pokemon p{
-    width: 260px;
+    width: 200px;
 }
 .tipos{
-    width: 76%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -139,6 +140,7 @@ main h1{
     border-radius: 15px;
     padding: 5px;
 }
+
 
 /* RODAPÉ */
 
@@ -208,4 +210,27 @@ footer{
 }
 #fada{
     background-color: #fab3fd;
+}
+
+
+/* ESTILO DA BARRA DE ROLAGEM */
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Cor de fundo */
+::-webkit-scrollbar-track {
+    background-color: #f0d1a8;
+    border: #5c6063 ;
+}
+/* Cor do preenchimento da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #86a531;
+    border-radius: 5px;
+    border: 2px solid #3f413f;
+}
+/* Cor do traço na barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

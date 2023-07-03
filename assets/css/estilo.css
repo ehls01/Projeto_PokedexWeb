@@ -90,6 +90,7 @@ main h1{
     background-color: antiquewhite;
     transition: linear transform 0.15s;
     width: 250px;
+    align-items: space-around;
 }
 .unidade p{
     overflow-y: scroll;
@@ -149,6 +150,9 @@ footer h1{
     font-style: italic;
 }
 footer{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
     background-color: #3f413f;
     text-align: center;
     padding: 10px;
